@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+logs
+*.log
+frontend/dev-dist
+tests/results.csv
+tests/dataset/*
+!tests/dataset/README.md
+!tests/dataset/.gitkeep
