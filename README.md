@@ -33,7 +33,8 @@ OCR reads characters. The vision model looks at the whole image (layout, faces, 
 
 ```bash
 cd backend
-copy .env.example .env
+cp .env.example .env          # macOS / Linux
+# copy .env.example .env      # Windows
 # edit backend/.env and set GEMINI_API_KEY=your_key
 
 cd ../frontend
